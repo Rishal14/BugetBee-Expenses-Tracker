@@ -72,7 +72,7 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::BugetBee_Expenses_Tracker.Properties.Resources.Vector;
-            this.pictureBox6.Location = new System.Drawing.Point(484, 269);
+            this.pictureBox6.Location = new System.Drawing.Point(462, 171);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(31, 27);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
