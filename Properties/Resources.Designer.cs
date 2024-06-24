@@ -99,5 +99,15 @@ namespace BugetBee_Expenses_Tracker.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2024_06_23_at_17_16_44_eef9fd95 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2024-06-23 at 17.16.44_eef9fd95", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
