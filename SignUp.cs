@@ -16,5 +16,10 @@ namespace BugetBee_Expenses_Tracker
         {
             InitializeComponent();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
