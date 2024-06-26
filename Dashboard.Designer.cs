@@ -136,7 +136,7 @@
             this.panel2.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 570);
+            this.panel2.Size = new System.Drawing.Size(200, 739);
             this.panel2.TabIndex = 0;
             // 
             // pictureBox2
@@ -832,7 +832,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1084, 570);
+            this.ClientSize = new System.Drawing.Size(1229, 739);
             this.Controls.Add(this.pictureBox13);
             this.Controls.Add(this.label22);
             this.Controls.Add(this.label20);

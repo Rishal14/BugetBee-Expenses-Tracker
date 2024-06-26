@@ -297,20 +297,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.roundedButton2);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.pictureBox9);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.pictureBox10);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox3);
+            this.ClientSize = new System.Drawing.Size(1229, 739);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox2);
@@ -318,7 +305,7 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "SignUp";
             this.Text = "SignUp";
