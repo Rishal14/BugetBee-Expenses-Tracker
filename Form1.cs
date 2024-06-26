@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BugetBee_Expenses_Tracker
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
             InitializeCustomControls();
