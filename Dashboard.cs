@@ -51,5 +51,10 @@ namespace BugetBee_Expenses_Tracker
         {
 
         }
+
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
