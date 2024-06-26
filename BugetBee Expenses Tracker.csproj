@@ -69,11 +69,11 @@
     <Compile Include="Dashboard.Designer.cs">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form2.cs">
+    <Compile Include="income.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form2.Designer.cs">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <Compile Include="income.Designer.cs">
+      <DependentUpon>income.cs</DependentUpon>
     </Compile>
     <Compile Include="Charts.cs">
       <SubType>Form</SubType>
@@ -101,8 +101,8 @@
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form2.resx">
-      <DependentUpon>Form2.cs</DependentUpon>
+    <EmbeddedResource Include="income.resx">
+      <DependentUpon>income.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Charts.resx">
       <DependentUpon>Charts.cs</DependentUpon>
