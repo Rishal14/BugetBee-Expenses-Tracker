@@ -81,5 +81,10 @@ namespace BugetBee_Expenses_Tracker
         {
 
         }
+
+        private void label1_Click_2(object sender, EventArgs e)
+        {
+
+        }
     }
 }

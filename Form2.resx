@@ -121,7 +121,7 @@
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAIYAAAAZCAYAAAD0SVYHAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EQAACxEBf2RfkQAABYRJREFUaEPtmYF51DgQhVNCSqAESkgJdAAl0AF0cHTAdQAdQAfQAdcBJeTeL0va
+        DwAACw8BkvkDpQAABYRJREFUaEPtmYF51DgQhVNCSqAESkgJdAAl0AF0cHTAdQAdQAfQAdcBJeTeL0va
         0bNky8leshf2fZ9iaaSxRjNPI3lzc39/f6vyaqfc3jwjmP+S7DmKjv2rkodeDmTUO5UZ/FB5l9WeFMyb
         LDjhWex4KGTv34vZu/imchlrw5Bk0jx+ZNUng+a8WGLIFoL5K5dvWdxA8lliFHzIqs8HGeFO/63yTy7U
         e/iY1Z8Emu+SiYGfCn5lcQPJnRjFv1s+vsvqzwMZsOl0tTkDv6SeE540a2i+l0aM5k6h9msVMk7Ep9z9
@@ -151,7 +151,7 @@
   <data name="walletlogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABcAAAAWCAYAAAArdgcFAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        EAAACxABrSO9dQAAAMhJREFUSEvllVENwjAURSuhEiYBCZOABCQgAQlzAA4mYThAAhKQUO5t7z5Imua9
+        DgAACw4BQL7hQQAAAMhJREFUSEvllVENwjAURSuhEiYBCZOABCQgAQlzAA4mYThAAhKQUO5t7z5Imua9
         0g8STnKz9qU7W/rSNKSUJuSBjOCJTGEHk1HinU3qLB+O1Gb5C7lZI7VJvmqpHwlazFrqR4IWuft4XsrU
         zPR/ch6WGTkgKwsVuuVn1gjGPOE1uuVLNgOM+fc1vtpzzk8It6jGbzbUgkvOLbg7Ei3yI+VdSNDi8wLw
         UN43wY+YIrVLbkbqLN9KaRhXqbM8IrxBah33ZkFiMYfwBtluXF2s5SPcAAAAAElFTkSuQmCC
@@ -160,7 +160,7 @@
   <data name="button6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DQAACw0B7QfALAAAAJ5JREFUOE/FlNENgCAMRBnJkdwENnUER8BrOQOGSAFJfEk/2lxfUIkuxrijTlQT
+        DAAACwwBP0AiyAAAAJ5JREFUOE/FlNENgCAMRBnJkdwENnUER8BrOQOGSAFJfEk/2lxfUIkuxrijTlQT
         1wuyR1ppw7gN8/0LFvT9L8RKkGKbURtg2wXiW9pSnlIOZ04ot+MmSzmYeodYq6VsKiHHo4TVQv8q7AFr
         5SP7e6hoMwBWapnAwZAQ8fLaZJnA4cwJvRTbjNoA2+/Qt1Ro/gsFxm2Qla9l/hMZN3DuAnbZ4m5i98Vi
         AAAAAElFTkSuQmCC
