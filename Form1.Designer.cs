@@ -184,6 +184,7 @@
             // roundedButton2
             // 
             this.roundedButton2.BackColor = System.Drawing.Color.Blue;
+            this.roundedButton2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.roundedButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roundedButton2.ForeColor = System.Drawing.SystemColors.Control;
             this.roundedButton2.Location = new System.Drawing.Point(695, 529);
@@ -197,6 +198,7 @@
             // 
             // button1
             // 
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.Blue;
             this.button1.Location = new System.Drawing.Point(805, 624);
