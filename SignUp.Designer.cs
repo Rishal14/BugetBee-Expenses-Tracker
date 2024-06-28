@@ -62,7 +62,7 @@
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.roundedButton1 = new RoundedButton();
             this.label10 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.login = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -464,16 +464,18 @@
             this.label10.TabIndex = 39;
             this.label10.Text = "Already login?";
             // 
-            // button1
+            // login
             // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Blue;
-            this.button1.Location = new System.Drawing.Point(863, 672);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(118, 40);
-            this.button1.TabIndex = 38;
-            this.button1.Text = "Login";
-            this.button1.UseVisualStyleBackColor = true;
+            this.login.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.login.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.login.ForeColor = System.Drawing.Color.Blue;
+            this.login.Location = new System.Drawing.Point(872, 672);
+            this.login.Name = "login";
+            this.login.Size = new System.Drawing.Size(118, 40);
+            this.login.TabIndex = 38;
+            this.login.Text = "Login";
+            this.login.UseVisualStyleBackColor = true;
+            this.login.Click += new System.EventHandler(this.button1_Click);
             // 
             // SignUp
             // 
@@ -482,7 +484,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1229, 739);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.login);
             this.Controls.Add(this.roundedButton1);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.label9);
@@ -564,6 +566,6 @@
         private System.Windows.Forms.PictureBox pictureBox16;
         private RoundedButton roundedButton1;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button login;
     }
 }

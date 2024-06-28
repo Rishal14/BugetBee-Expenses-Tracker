@@ -83,5 +83,12 @@ namespace BugetBee_Expenses_Tracker
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SignUp signup = new SignUp();
+            signup.Show();
+            this.Hide();
+        }
     }
 }

@@ -39,11 +39,11 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.roundedButton2 = new RoundedButton();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.roundedButton2 = new RoundedButton();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -181,21 +181,6 @@
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // roundedButton2
-            // 
-            this.roundedButton2.BackColor = System.Drawing.Color.Blue;
-            this.roundedButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.roundedButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.roundedButton2.ForeColor = System.Drawing.SystemColors.Control;
-            this.roundedButton2.Location = new System.Drawing.Point(695, 529);
-            this.roundedButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.roundedButton2.Name = "roundedButton2";
-            this.roundedButton2.Size = new System.Drawing.Size(197, 43);
-            this.roundedButton2.TabIndex = 0;
-            this.roundedButton2.Text = "LOGIN";
-            this.roundedButton2.UseVisualStyleBackColor = false;
-            this.roundedButton2.Click += new System.EventHandler(this.roundedButton2_Click_1);
-            // 
             // button1
             // 
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -207,6 +192,7 @@
             this.button1.TabIndex = 20;
             this.button1.Text = "SignUp";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // textBox2
             // 
@@ -236,6 +222,21 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(355, 37);
             this.textBox1.TabIndex = 24;
+            // 
+            // roundedButton2
+            // 
+            this.roundedButton2.BackColor = System.Drawing.Color.Blue;
+            this.roundedButton2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.roundedButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.roundedButton2.ForeColor = System.Drawing.SystemColors.Control;
+            this.roundedButton2.Location = new System.Drawing.Point(695, 529);
+            this.roundedButton2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.roundedButton2.Name = "roundedButton2";
+            this.roundedButton2.Size = new System.Drawing.Size(197, 43);
+            this.roundedButton2.TabIndex = 0;
+            this.roundedButton2.Text = "LOGIN";
+            this.roundedButton2.UseVisualStyleBackColor = false;
+            this.roundedButton2.Click += new System.EventHandler(this.roundedButton2_Click_1);
             // 
             // Login
             // 

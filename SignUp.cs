@@ -21,5 +21,12 @@ namespace BugetBee_Expenses_Tracker
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Login loginForm = new Login();
+            loginForm.Show();
+            this.Hide();
+        }
     }
 }
