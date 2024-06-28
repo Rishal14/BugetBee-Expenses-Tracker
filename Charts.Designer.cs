@@ -85,11 +85,11 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(235, 336);
+            this.dataGridView1.Location = new System.Drawing.Point(216, 420);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(801, 224);
+            this.dataGridView1.Size = new System.Drawing.Size(961, 304);
             this.dataGridView1.TabIndex = 7;
             // 
             // chart1
@@ -98,34 +98,34 @@
             this.chart1.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.chart1.Legends.Add(legend1);
-            this.chart1.Location = new System.Drawing.Point(264, 350);
+            this.chart1.Location = new System.Drawing.Point(245, 434);
             this.chart1.Name = "chart1";
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Series1";
             this.chart1.Series.Add(series1);
-            this.chart1.Size = new System.Drawing.Size(739, 197);
+            this.chart1.Size = new System.Drawing.Size(899, 277);
             this.chart1.TabIndex = 8;
             this.chart1.Text = "chart1";
             // 
             // dataGridView2
             // 
             this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Location = new System.Drawing.Point(235, 61);
+            this.dataGridView2.Location = new System.Drawing.Point(235, 67);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
-            this.dataGridView2.Size = new System.Drawing.Size(463, 260);
+            this.dataGridView2.Size = new System.Drawing.Size(525, 310);
             this.dataGridView2.TabIndex = 9;
             // 
             // dataGridView3
             // 
             this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Location = new System.Drawing.Point(720, 61);
+            this.dataGridView3.Location = new System.Drawing.Point(774, 67);
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.RowHeadersWidth = 51;
             this.dataGridView3.RowTemplate.Height = 24;
-            this.dataGridView3.Size = new System.Drawing.Size(316, 260);
+            this.dataGridView3.Size = new System.Drawing.Size(401, 310);
             this.dataGridView3.TabIndex = 10;
             // 
             // chart2
@@ -134,14 +134,14 @@
             this.chart2.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.chart2.Legends.Add(legend2);
-            this.chart2.Location = new System.Drawing.Point(245, 70);
+            this.chart2.Location = new System.Drawing.Point(245, 76);
             this.chart2.Name = "chart2";
             series2.ChartArea = "ChartArea1";
             series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.StackedColumn;
             series2.Legend = "Legend1";
             series2.Name = "Monthly Expense";
             this.chart2.Series.Add(series2);
-            this.chart2.Size = new System.Drawing.Size(437, 236);
+            this.chart2.Size = new System.Drawing.Size(499, 286);
             this.chart2.TabIndex = 11;
             this.chart2.Text = "chart2";
             // 
@@ -151,14 +151,14 @@
             this.chart3.ChartAreas.Add(chartArea3);
             legend3.Name = "Legend1";
             this.chart3.Legends.Add(legend3);
-            this.chart3.Location = new System.Drawing.Point(743, 76);
+            this.chart3.Location = new System.Drawing.Point(797, 82);
             this.chart3.Name = "chart3";
             series3.ChartArea = "ChartArea1";
             series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Doughnut;
             series3.Legend = "Legend1";
             series3.Name = " Statistics";
             this.chart3.Series.Add(series3);
-            this.chart3.Size = new System.Drawing.Size(276, 230);
+            this.chart3.Size = new System.Drawing.Size(361, 280);
             this.chart3.TabIndex = 12;
             this.chart3.Text = "chart3";
             // 
@@ -373,6 +373,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Charts";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Charts_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();

@@ -21,5 +21,10 @@ namespace BugetBee_Expenses_Tracker
         {
 
         }
+
+        private void Charts_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
