@@ -15,7 +15,7 @@ namespace BugetBee_Expenses_Tracker
     public partial class Login : Form
 
     {
-        SqlConnection connect = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\risha\OneDrive\Documents\expense.mdf;Integrated Security=True;Connect Timeout=30");
+       
         public Login()
         {
             InitializeComponent();
