@@ -63,6 +63,7 @@
             this.roundedButton1 = new RoundedButton();
             this.label10 = new System.Windows.Forms.Label();
             this.login = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -443,6 +444,7 @@
             // roundedButton1
             // 
             this.roundedButton1.BackColor = System.Drawing.Color.Blue;
+            this.roundedButton1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.roundedButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.roundedButton1.ForeColor = System.Drawing.SystemColors.Control;
             this.roundedButton1.Location = new System.Drawing.Point(714, 605);
@@ -452,6 +454,7 @@
             this.roundedButton1.TabIndex = 37;
             this.roundedButton1.Text = "SIGN UP";
             this.roundedButton1.UseVisualStyleBackColor = false;
+            this.roundedButton1.Click += new System.EventHandler(this.roundedButton1_Click);
             // 
             // label10
             // 
@@ -477,12 +480,23 @@
             this.login.UseVisualStyleBackColor = true;
             this.login.Click += new System.EventHandler(this.button1_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(511, 151);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 40;
+            this.button1.Text = "button2";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // SignUp
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1229, 739);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.login);
             this.Controls.Add(this.roundedButton1);
@@ -567,5 +581,6 @@
         private RoundedButton roundedButton1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button login;
+        private System.Windows.Forms.Button button1;
     }
 }
