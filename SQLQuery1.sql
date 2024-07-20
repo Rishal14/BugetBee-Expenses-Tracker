@@ -1,6 +1,7 @@
-﻿create table users(
-    id int primary key identity(1,1),
-    username varchar(MAX) NULL,
-    password varchar(MAX) NULL,
-    date_create date NULL,
-    );
+﻿CREATE TABLE users (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    username VARCHAR(MAX) NULL,
+    password VARCHAR(MAX) NULL,
+    date_created DATE NULL
+);
+SELECT * FROM users
