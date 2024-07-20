@@ -12,10 +12,13 @@ using System.Data.SqlClient;
 namespace BugetBee_Expenses_Tracker
 {
     
+
     public partial class Login : Form
 
     {
-       
+        string stringConnection = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\risha\\OneDrive\\Documents\\expense.mdf;Integrated Security=True;Connect Timeout=30";
+        
+
         public Login()
         {
             InitializeComponent();
@@ -80,6 +83,32 @@ namespace BugetBee_Expenses_Tracker
 
         private void roundedButton2_Click_1(object sender, EventArgs e)
         {
+            using (SqlConnection connect = new SqlConnection(stringConnection))
+            {
+                connect.Open();
+
+                string selectData = "SELECT * FROM users where username =@usern and password=@pass";
+
+                using (SqlCommand cmd = new SqlCommand(selectData, connect))
+                {
+                    cmd.Parameters.AddWithValue("@usern", textBox2.Text.Trim());
+                    cmd.Parameters.AddWithValue("@pass", textBox1.Text.Trim());
+
+                    SqlDataAdapter adapter = new SqlDataAdapter(cmd);
+                    DataTable table = new DataTable();
+
+                    adapter.Fill(table);
+                    
+                    if(table.Rows.Count>0)
+                    {
+                        MessageBox.Show("Login Successfully!", "Information Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Incorrect username/password", "Error Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
 
         }
 
@@ -87,6 +116,7 @@ namespace BugetBee_Expenses_Tracker
         {
 
         }
+        
 
         private void button1_Click(object sender, EventArgs e)
         {
